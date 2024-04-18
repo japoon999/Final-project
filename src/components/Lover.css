@@ -1,0 +1,32 @@
+
+.section-tittle {
+    color: white;
+    padding-top: 80px;
+  }
+  
+  
+  .rating ul {
+    display: flex;
+    padding-left: 0px;
+    color: #E5BF4A;
+  
+  }
+  
+  
+  .cat-cap p {
+    color: white;
+    font-size: 19px;
+  
+  }
+  
+  .cat-img p {
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+  
+  }
+  
+  .cat-img {
+    display: flex;
+  
+  }

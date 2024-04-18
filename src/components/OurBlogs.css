@@ -1,0 +1,72 @@
+
+
+.bt1 button {
+
+    background: #E5BF4A;
+    border: 1px solid #2A2A2A;
+    color: #0A0A0A;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 22px 41px;
+    text-transform: uppercase;
+    line-height: 15px;
+    border-radius: 0px;
+  }
+  
+   .bt1 button:hover {
+    border: 1px solid #E5BF4A;
+    color: #E5BF4A;
+    background-color: black;
+    transition: 0.5s all ease-out;
+  }
+  
+  
+  .h1-blog .single-services .features-caption h3 {
+    color: #E5BF4A;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+  }
+  
+  
+  .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+  .h1-blog .single-services .features-caption {
+    padding: 60px 40px;
+    height: 370px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+  
+  }
+  
+  .h1-blog .single-services .features-img img {
+    width: 100%;
+    height: 370px;
+  
+  }
+  
+  .link1{
+    color: #E5BF4A;
+  }
+  

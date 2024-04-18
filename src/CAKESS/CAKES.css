@@ -1,0 +1,63 @@
+.slider-area {
+    position: relative; 
+    width: 100%;
+    height: fit-content;
+    font-family: "Jost", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.slider-area .hero-caption.hero-caption2 {
+    position: absolute; 
+    top: 50%; 
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    padding-top: 0px;
+    text-align: center; 
+}
+
+.slider-area .hero-caption.hero-caption2 h2 {
+    color: #fff; 
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.slider-area img {
+    height:300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.container {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.cont{
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+
+.card-body span{
+color: #E5BF4A;
+}

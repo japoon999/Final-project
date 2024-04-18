@@ -1,0 +1,129 @@
+.container-fulid {
+  background-color: #070808;
+}
+
+
+.imgs {
+  background-image: url(../assets/h1_hero1.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.text {
+
+  padding: 220px 150px;
+  color: white;
+  width: 50%;
+  height: 100%;
+}
+
+.text h1 {
+  font-weight: 100;
+  font-size: 55px;
+}
+
+.btn1 {
+  margin-top: 30px;
+}
+
+.btn1 button {
+  width: 45%;
+  padding: 25px;
+  background-color: #E5BF4A;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1 button:hover {
+  border: 1px solid #E5BF4A;
+  color: #E5BF4A;
+  background-color: black;
+  transition: 0.5s all ease-out;
+}
+
+
+
+.head {
+  text-align: center;
+  width: 35%;
+  color: white;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+
+
+
+.section1 {
+  background-color: #070808;
+  padding: 0px 150px;
+}
+
+
+
+
+.card-text {
+  color: white;
+}
+
+span {
+  color: #E5BF4A;
+}
+
+
+
+.card {
+  position: relative;
+  cursor: pointer;
+  background-color: #070808;
+  border: none;
+  overflow: hidden;
+}
+
+.card .card1 img {
+  transition: transform 0.7s ease;
+}
+
+.card:hover .card1 img {
+  transform: scale(1.2);
+}
+
+.card .card1 button {
+  width: 340px;
+  height: 65px;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  border: none;
+  cursor: pointer;
+  background-color: #E5BF4A;
+  transition: opacity 0.8s ease, top 0.8s ease;
+}
+
+.card:hover .card1 button {
+  opacity: 1;
+  top: 61%;
+}
+
+
+.card-body {
+  padding-top: 35px;
+}
+
+
+
+.player-wrapper {
+  height: 100%;
+  width: 100%;
+  padding-left: 250px;
+}
+
+
+.card-body span{
+  color: #E5BF4A;
+}
+

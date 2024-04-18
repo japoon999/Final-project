@@ -1,0 +1,147 @@
+.top-padding {
+    padding-top: 40px;
+}
+
+
+.container,
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.section-tittle {
+    position: relative;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.section-tittle h2 {
+    color: #DFDFDF;
+    font-family: "Poiret One", cursive;
+    font-size: 40px;
+    display: block;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.btn_02.btn_02s {
+    border: 1px solid #E5BF4A;
+    color: #E5BF4A !important;
+}
+
+.btn_02 {
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 14px 36px 13px 39px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    background: none;
+    border-radius: 0px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+button {
+    color: #fff;
+    outline: medium none;
+}
+
+button {
+    color: #635c5c;
+    text-decoration: none;
+}
+
+.button {
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+
+.btn_02.btn_02s .fa-icon {
+    color: #E5BF4A;
+}
+
+.btn_02 .fa-icon {
+    color: #fff;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    right: 15px;
+    top: 2px;
+}
+
+.fa-icon {
+    font-weight: 400;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+
+
+
+
+@media screen and (min-width: 992) and (max-width: 1199px) {
+    .section-tittle h2 {
+        font-size: 30px;
+  }
+  }
+
+
+@media screen and (min-width: 992px)  {
+    .col-lg-7  {
+        flex: 0 0 auto;
+        width:58.3333333333%;
+    }
+        .col-lg-3 {
+            flex: 0 0 auto;
+            width: 25%;
+        }
+  }
+  
+
+
+
+
+@media  screen and(min-width: 768px) {
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}

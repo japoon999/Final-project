@@ -1,0 +1,45 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: #070808;
+  
+  }
+
+  .head h3 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  
+  
+  .head .line {
+    margin: 20px 185px;
+    width: 20%;
+    border: 1px solid #E5BF4A;
+  
+  }
+  
+  .cake {
+    margin-left: 29px;
+  }
+
+
+  
+.info h5 {
+    color: #E5BF4A;
+    font-weight: 100;
+  }
+  
+  .info h6 {
+    font-weight: 100;
+  }
+  
+  .info {
+  
+    display: flex;
+    width: 75%;
+    color: white;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 25px;
+  
+  }
